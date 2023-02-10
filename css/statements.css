@@ -3,6 +3,7 @@
     justify-content: space-around;
     flex-direction: row;
     margin-bottom: var(--large-size);
+    width: 100%;
 }
 
 .statement_container {
@@ -10,7 +11,7 @@
     position: relative;
     flex-direction: column;
     align-items: center;
-    width: 360px;
+    max-width: 360px;
 }
 .statement_text {
     text-align: center;
