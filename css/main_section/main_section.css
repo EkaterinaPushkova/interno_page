@@ -1,6 +1,3 @@
-@import './section_article.css';
-
-
 .main_section {
     display: flex;
     position: relative;
@@ -8,6 +5,7 @@
     width: 1201px;
     height: 758px;
     background: url('/assets/images/content/header.svg');
+    margin-bottom: var(--large-size);
 }
 
 .main_article {
