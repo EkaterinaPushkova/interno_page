@@ -18,15 +18,11 @@
 }
 
 .main_article_title {
-    font-family: var(--dm);
     font-size: var(--art-title);
-    font-weight: 400;
-    color: var(--primary2);
-    margin: 0;
     line-height: 81px;
 }
 
-.main_article_content {
+.main_article_text {
     font-family: var(--jost);
     font-size: var(--h4);
     padding-bottom: var(--min-size) ;
@@ -34,12 +30,5 @@
 
 .main_article_button {
     background-color: var(--primary2);
-}
-
-.main_article_button_icon{
-    width: 18px;
-    height: 18px;
-    margin-left: 5px;
-    content: url('/assets/icons/interface/mini/ArrowPrimary1.svg');
 }
 

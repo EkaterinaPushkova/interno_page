@@ -1,0 +1,42 @@
+
+.btn {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: var(--min-size);
+
+    height: var(--btnh);
+    width: var(--btnw-min);
+
+    font-family: var(--jost);
+    font-weight: 700;
+    font-size: var(--min-size);
+
+    color: #FFFFFF;
+}
+
+.arrow_light_icon{
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    content: url('/assets/icons/interface/mini/ArrowPrimary1.svg');
+}
+
+.title {
+    font-family: var(--dm);
+    font-weight: 100;
+    color: var(--primary2);
+    margin: 0;
+}
+
+.text {
+    font-family: var(--jost);
+    font-size: var(--h4);
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: var(--text);
+
+}
