@@ -3,7 +3,7 @@
 @import '/styles_constants/_colors.css';
 @import '/styles_constants/_typography.css';
 @import '/styles_constants/_sizes.css';
-@import './components.css';
+@import '/styles_constants/components.css';
 
 
 @import './header.css';
