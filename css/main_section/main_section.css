@@ -1,0 +1,47 @@
+@import './section_article.css';
+
+
+.main_section {
+    display: flex;
+    position: relative;
+    border-radius: 70px;
+    width: 1201px;
+    height: 758px;
+    background: url('/assets/images/content/header.svg');
+}
+
+.main_article {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: var(--medium-size);
+    width: 435px;
+}
+
+.main_article_title {
+    font-family: var(--dm);
+    font-size: var(--art-title);
+    font-weight: 400;
+    color: var(--primary2);
+    margin: 0;
+    line-height: 81px;
+}
+
+.main_article_content {
+    font-family: var(--jost);
+    font-size: var(--h4);
+    padding-bottom: var(--min-size) ;
+}
+
+.main_article_button {
+    background-color: var(--primary2);
+}
+
+.main_article_button_icon{
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    content: url('/assets/icons/interface/mini/ArrowPrimary1.svg');
+}
+

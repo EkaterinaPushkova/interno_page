@@ -1,0 +1,16 @@
+:root {
+    --maxw: 1500px;
+    --minw: 300px;
+
+    --min-size: 18px;
+    --medium-size: 40px;
+    --large-size: 150px;
+
+
+    --btnh: 75px;
+
+    --btnw-min: 220px;
+    --btnw-default: 253px;
+    --btnw-large: 288px;
+
+}

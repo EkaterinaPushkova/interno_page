@@ -1,0 +1,18 @@
+
+.btn_min {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: var(--min-size);
+
+    height: var(--btnh);
+    width: var(--btnw-min);
+
+    font-family: var(--jost);
+    font-weight: 700;
+    font-size: var(--min-size);
+
+    color: #FFFFFF;
+}

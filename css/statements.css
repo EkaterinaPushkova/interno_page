@@ -1,0 +1,13 @@
+    .statements {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .statements > div {
+        width: 360px;
+        height: 225px;
+        align-items: center;
+        flex-direction: row;
+    }

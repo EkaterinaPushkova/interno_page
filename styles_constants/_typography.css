@@ -1,0 +1,21 @@
+
+
+:root {
+
+/* sizes*/
+
+    --d1: 85px;
+    --art-title: 65px;
+    --h1: 50px;
+    --h2: 35px;
+    --h3: 25px;
+    --h4: 22px;
+    --h5: 20px;
+    --h6: 18px;
+
+/* fonts */
+
+    --dm: 'DM Serif Display', serif;
+    --jost: 'Jost', sans-serif;
+}
+
