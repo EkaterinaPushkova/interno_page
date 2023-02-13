@@ -6,13 +6,30 @@
     width: 100%;
 }
 
+@media screen and (max-width: 700px) {
+    .statements {
+        display: flex;
+        flex-direction:column;
+
+        align-items: center;
+    }
+
+    .statement_container { 
+        max-width: 560px;
+        margin: var(--medium-size) 0;
+    }
+    
+}
+
 .statement_container {
     display: flex;
     position: relative;
     flex-direction: column;
     align-items: center;
     max-width: 360px;
+    padding: 0 var(--min-size);
 }
+
 .statement_text {
     text-align: center;
 }

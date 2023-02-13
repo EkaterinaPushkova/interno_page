@@ -4,6 +4,7 @@
     align-items: center;
 }
 
+
 .estimate_section_wrapper {
     display: flex;
     flex-direction: column;
@@ -45,6 +46,7 @@
 }
 
 .estimate_phone_text {
+    text-decoration: none;
     font-weight: 700;
 }
 
@@ -55,13 +57,13 @@
 .estimate_button {
     background-color: var(--primary2);
     width: 240px;
-}
 
+}
 
 .estimate_section_image {
     border-radius: 0 326.5px 0 123px;
     width: 650px;
     height: 650px;
-    content: url('/assets/images/content/article.svg');
+    background-image: url('/assets/images/content/article.svg');
     margin-left: 65px;
 }
