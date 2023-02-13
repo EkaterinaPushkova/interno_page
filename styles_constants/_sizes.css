@@ -14,9 +14,13 @@
     --btnw-default: 253px;
     --btnw-large: 288px;
 
-    --media-w-min: 400px;
-    --media-w-medium: 650px;
-    --media-w-large: 950px;
-
 }
 
+body {
+    --media-w-xs: 400px;
+    --media-w-s: 650px;
+    --media-w-m: 950px;
+    --media-w-l: 1000px;
+    --media-w-xl: 1050px;
+
+}
