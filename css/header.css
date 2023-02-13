@@ -45,9 +45,15 @@
     text-decoration:none
 }
 
+@media screen and (max-width: 1000px) {
+    .header {
+        padding: var(--medium-size) 0;
+    }
 
+    .logo {
+        font-size: var(--h3);
+    }
 
-@media screen and (max-width: 1050px) {
     .navbar {
         display: none;
     }

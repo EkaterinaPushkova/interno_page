@@ -31,7 +31,7 @@
     background-color: var(--primary2);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .main_article_title {
         font-size: var(--h1);
         line-height: 50px;
