@@ -44,3 +44,33 @@
     color: var(--primary2);
     text-decoration:none
 }
+
+
+
+@media screen and (max-width: 950px) {
+    .navbar {
+        display: none;
+    }
+
+
+    .menu_button,
+    .menu_button::before,
+    .menu_button::after {
+    display: block;
+    background-color: var(--primary2);
+    justify-content: end;
+    height: 4px;
+    width: 30px;
+    border-radius: 2px;
+    }
+
+    .menu_button::before {
+    content: '';
+    margin-top: -8px;
+    }
+
+    .menu_button::after {
+    content: '';
+    margin-top: 12px;
+    }
+}
