@@ -82,7 +82,7 @@
         background-image: url('/assets/images/content/article.svg');
         display: flex;
         justify-content: center;
-        min-height: 400px;
+        min-height: 200px;
         min-width: 300px;
         max-height: 550px;
         max-width: 650px;
