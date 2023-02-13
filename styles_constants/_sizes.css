@@ -14,4 +14,9 @@
     --btnw-default: 253px;
     --btnw-large: 288px;
 
+    --media-w-min: 400px;
+    --media-w-medium: 650px;
+    --media-w-large: 950px;
+
 }
+

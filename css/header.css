@@ -52,25 +52,24 @@
         display: none;
     }
 
-
     .menu_button,
     .menu_button::before,
     .menu_button::after {
     display: block;
     background-color: var(--primary2);
     justify-content: end;
-    height: 4px;
-    width: 30px;
+    height: 2px;
+    width: 20px;
     border-radius: 2px;
     }
 
     .menu_button::before {
     content: '';
-    margin-top: -8px;
+    margin-top: -6px;
     }
 
     .menu_button::after {
     content: '';
-    margin-top: 12px;
+    margin-top: 10px;
     }
 }

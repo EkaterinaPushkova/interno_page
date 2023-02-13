@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-left: var(--medium-size);
+    padding: 0 var(--medium-size);
     width: 435px;
 }
 
@@ -31,3 +31,15 @@
     background-color: var(--primary2);
 }
 
+@media screen and (max-width: 900px) {
+    .main_article_title {
+        font-size: var(--h1);
+        line-height: 50px;
+    }
+
+    .main_section {
+        height: 550px;
+        background-position: center;
+        margin-bottom: var(--medium-size);
+    }
+}
