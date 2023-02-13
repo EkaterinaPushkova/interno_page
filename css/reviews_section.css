@@ -3,17 +3,22 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
 
     background-color: var(--primary3);
     border-radius: 70px;
 
-    width: 1199px;
-    height: 679px;
+    max-width: 1180px;
+    height: 660px;
+    overflow: hidden;
+    padding: 0 20px;
+
+    margin-bottom: var(--large-size);
+
+    
 }
 
 .reviews_section_title {
-    width: 550px;
+    max-width: 550px;
     text-align: center;
 
     font-size: var(--h1);
@@ -26,8 +31,11 @@
 .reviews_section_blocks {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    
+    width: 100%;
+    overflow-x: auto;
 }
 
 .user_review_card {
