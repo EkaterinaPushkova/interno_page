@@ -1,9 +1,10 @@
 .main_section {
     display: flex;
     border-radius: 70px;
-    width: 100%;
+    max-width: 1201px;
     height: 758px;
     background: url('/assets/images/content/header.svg');
+    background-repeat: no-repeat;
     margin-bottom: var(--large-size);
 }
 
