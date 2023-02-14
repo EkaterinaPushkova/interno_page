@@ -8,7 +8,7 @@
     padding: 60px 0;
 }
 
-.logo {
+.logo_header {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -50,7 +50,7 @@
         padding: var(--medium-size) 0;
     }
 
-    .logo {
+    .logo_header {
         font-size: var(--h3);
     }
 

@@ -111,3 +111,8 @@
     }
 }
 
+@media (max-width: 500px) {
+    .estimate_section_image {
+        display: none;
+    }
+}

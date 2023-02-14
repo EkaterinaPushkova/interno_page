@@ -56,6 +56,13 @@
     margin-left: 15px;
 }
 
+.logo {
+    width: auto;
+    height: auto;
+    margin: 0 var(--medium-size);
+    background-repeat: no-repeat;
+}
+
 @media screen and (max-width: 500px) {
     .avatar {
         background-repeat: no-repeat;
@@ -67,3 +74,4 @@
         margin-left: 0;
     }
 }
+

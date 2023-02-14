@@ -1,0 +1,34 @@
+.clients_logo_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.logo_1 {
+    content: url('/assets/icons/logo_clients/01.svg');
+}
+
+.logo_2 {
+    content: url('/assets/icons/logo_clients/02.svg');
+}
+
+.logo_3 {
+    content: url('/assets/icons/logo_clients/03.svg');
+}
+
+.logo_4 {
+    content: url('/assets/icons/logo_clients/04.svg');
+}
+
+.logo_5 {
+    content: url('/assets/icons/logo_clients/05.svg');
+}
+
+@media screen and (max-width: 1150px) {
+    .clients_logo_container {
+        justify-content: flex-start;
+    }
+}
