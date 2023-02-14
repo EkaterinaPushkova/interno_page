@@ -26,12 +26,17 @@
     content: url('/assets/icons/interface/mini/ArrowPrimary1.svg');
 }
 
+.arrow_dark_icon{
+    margin-left: 5px;
+    content: url('/assets/icons/interface/mini/ArrowPrimary2.svg');
+}
+
 .title {
     font-family: var(--dm);
     font-weight: 100;
     letter-spacing: 0.02em;
     line-height: 125%;
-    
+
     color: var(--primary2);
     margin: 0;
 }
