@@ -11,13 +11,13 @@
     margin-bottom: var(--large-size);
 }
 
-.test {
+.achieve_block {
     width: 300px;
     height: auto;
     text-align: center;
     border-right: solid 1px var(--primary1);
 }
-.test:last-child {
+.achieve_block:last-child {
     border-right: none;
 }
 
