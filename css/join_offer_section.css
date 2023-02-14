@@ -11,14 +11,16 @@
 
 .offer_title {
     font-size: var(--h1);
-    color: white;
+    color: var(--white);
+
 }
 
 .offer_text {
     margin-top: 10px;
 
     font-size: var(--h4);
-    color: white;
+    color: var(--white);
+
 }
 
 .offer_button {

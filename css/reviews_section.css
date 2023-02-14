@@ -38,7 +38,7 @@
 }
 
 .user_review_card {
-    background-color: white;
+    background-color: var(--white);
 
     width: 370px;
     height: 340px;

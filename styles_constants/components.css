@@ -14,7 +14,7 @@
     font-weight: 700;
     font-size: var(--min-size);
 
-    color: #FFFFFF;
+    color: var(--white);
 
     cursor: pointer;
 }
