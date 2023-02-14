@@ -1,0 +1,29 @@
+.achievements {
+    background-color: var(--primary3);
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--large-size);
+}
+
+.test {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    border-right: solid 1px var(--primary1);
+}
+.test:last-child {
+    border-right: none;
+}
+
+.achieve_title {
+    font-size: var(--d1);
+    color: var(--primary1);
+}
+
+.achieve_text {
+    font-size: var(--h4);
+}
