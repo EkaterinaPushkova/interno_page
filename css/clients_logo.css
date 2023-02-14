@@ -5,6 +5,7 @@
     align-items: center;
     max-width: 100%;
     overflow-x: auto;
+    margin-bottom: var(--large-size);
 }
 
 .logo_1 {

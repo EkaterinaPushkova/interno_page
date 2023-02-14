@@ -63,6 +63,12 @@
     background-repeat: no-repeat;
 }
 
+.project {
+    width: 550px;
+    height: 525px;
+    margin-bottom: var(--min-size);
+}
+
 @media screen and (max-width: 500px) {
     .avatar {
         background-repeat: no-repeat;
