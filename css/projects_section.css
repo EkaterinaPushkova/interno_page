@@ -17,12 +17,9 @@
 
 .projects_examples_container {
     display: grid;
+    max-width: 100%;
     grid-template-columns: 550px 550px;
     grid-gap: 100px;
-}
-
-.project {
-    max-width: 100%;
 }
 
 .project_example_title {
