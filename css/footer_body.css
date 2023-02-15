@@ -4,3 +4,21 @@
     align-items: center;
     max-width: 100%;
 }
+
+.footer_body p {
+ width: 50%;
+ text-align: center;
+}
+
+
+@media screen and (max-width: 850px){
+    .footer_body p{
+        font-size: var(--mini);
+    }
+}
+
+@media screen and (max-width: 500px){ 
+    .footer_body p{
+        font-size: 10px;
+    }
+}
