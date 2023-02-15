@@ -33,6 +33,18 @@
     font-size: var(--h5);
 }
 
+.navbar a {
+    transition: all 0.2s ease;
+}
+
+.navbar a:hover {
+    padding-bottom: 5px;
+}
+.navbar a:focus {
+    color: black;
+    border-bottom: 2px solid;
+}
+
 .navbar_search_icon {
     width: 20px;
     height: 20px;

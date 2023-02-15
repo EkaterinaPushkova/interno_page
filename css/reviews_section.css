@@ -92,19 +92,6 @@
     word-wrap: break-word;
 }
 
-.navbar a {
-    transition: all 0.2s ease;
-
-}
-
-.navbar a:hover {
-    padding-bottom: 5px;
-}
-.navbar a:focus {
-    color: black;
-    border-bottom: 2px solid;
-}
-
 @media screen and (max-width: 500px) {
     .reviews_section {
         height: 550px;

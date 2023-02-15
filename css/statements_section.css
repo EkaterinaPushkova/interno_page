@@ -46,3 +46,11 @@
     
     color: var(--text);
 }
+
+.statement_link_text {
+    transition: all 0.2s ease;
+}
+.statement_link_text:hover {
+    color: black;
+    margin-right: 15px;
+}

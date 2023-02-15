@@ -21,6 +21,12 @@ a {
     color: var(--white);
 
     cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+.btn:hover {
+    width: var(--btnw-large);
+
 }
 
 .arrow_light_icon{
