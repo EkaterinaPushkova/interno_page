@@ -100,7 +100,7 @@
     }
 
     .reviews_section_blocks {
-        height: 250px;
+        height: 280px;
     }
 
     .reviews_section_title {
@@ -112,8 +112,8 @@
     }
 
     .user_review_card {
-        width: 260px;
-        height: 230px;
+        width: 270px;
+        height: 250px;
 
         border-radius: 25px;
     }
