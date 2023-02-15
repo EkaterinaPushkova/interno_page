@@ -7,9 +7,7 @@
     background-color: var(--primary3);
     border-radius: 70px;
 
-    max-width: 1180px;
     height: 660px;
-    overflow: hidden;
     padding: 0 20px;
 
     margin-bottom: var(--large-size);
