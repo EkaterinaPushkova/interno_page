@@ -39,3 +39,21 @@
         font-size: var(--h5);
     }
 }
+
+@media screen and (max-width: 800px) {
+    .achievements {
+        flex-direction: column;
+        padding: 1em 0;
+
+    }
+
+    .achieve_block {
+        width: 200px;
+        padding: 20px 0;
+        border-right: none;
+        border-bottom:solid 1px var(--primary1);
+    }
+    .achieve_block:last-child {
+        border-bottom: none;
+    }
+}
