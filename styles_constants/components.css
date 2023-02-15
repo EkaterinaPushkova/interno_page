@@ -1,3 +1,7 @@
+a {
+    color: var(--primary2);
+    text-decoration:none
+}
 
 .btn {
     display: flex;    

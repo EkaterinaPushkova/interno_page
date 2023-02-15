@@ -40,11 +40,6 @@
     content: url('/assets/icons/interface/mini/Search.svg');
 }
 
-.navbar a {
-    color: var(--primary2);
-    text-decoration:none
-}
-
 @media screen and (max-width: 1000px) {
     .header {
         padding: var(--medium-size) 0;
