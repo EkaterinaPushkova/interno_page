@@ -11,7 +11,7 @@
 }
 
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1100px){
     .footer_body p{
         font-size: var(--mini);
     }
