@@ -1,5 +1,5 @@
 .achievements {
-    background-color: var(--primary3);
+    background-color: #ECE8DF;
     width: 100%;
     left: 0;
     height: auto;
@@ -15,7 +15,7 @@
     width: 300px;
     height: auto;
     text-align: center;
-    border-right: solid 1px var(--primary1);
+    border-right: solid 1px #684427;
 }
 .achieve_block:last-child {
     border-right: none;
@@ -23,7 +23,7 @@
 
 .achieve_title {
     font-size: var(--d1);
-    color: var(--primary1);
+    color: #684427;
 }
 
 .achieve_text {
@@ -51,7 +51,7 @@
         width: 200px;
         padding: 20px 0;
         border-right: none;
-        border-bottom:solid 1px var(--primary1);
+        border-bottom:solid 1px #684427;
     }
     .achieve_block:last-child {
         border-bottom: none;

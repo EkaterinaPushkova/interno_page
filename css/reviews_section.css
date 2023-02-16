@@ -62,15 +62,15 @@
 }
 
 .user_data_avatar {
-    background-image: url('/assets/images/avatars/Photo.svg');
+    background-image: url('/assets1/images/avatars/Photo.png');
 }
 
 .user_data_avatar1 {
-    background-image: url('/assets/images/avatars/Photo-1.svg');
+    background-image: url('/assets1/images/avatars/Photo-1.png');
 }
 
 .user_data_avatar2 {
-    background-image: url('/assets/images/avatars/Photo-2.svg');
+    background-image: url('/assets1/images/avatars/Photo-2.png');
 }
 
 .user_data_text {
