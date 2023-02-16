@@ -60,7 +60,7 @@
 }
 
 .estimate_section_image {
-    background-image: url('/assets1/images/content/article.webp');
+    background-image: url('/assets/images/content/article.webp');
     background-repeat: no-repeat;
     background-position: center;
 
@@ -80,7 +80,7 @@
     }
 
     .estimate_section_image {
-        background-image: url('/assets1/images/content/article.svg');
+        background-image: url('/assets/images/content/article.svg');
         display: flex;
         justify-content: center;
         

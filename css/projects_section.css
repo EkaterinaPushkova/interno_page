@@ -40,22 +40,22 @@
 
 .project_example_photo1 {
     border-radius: 0px 80px 0px 0px;;
-    content: url('/assets1/images/content/projects/Photo.webp');
+    content: url('/assets/images/content/projects/Photo.webp');
 }
 
 .project_example_photo2 {
     border-radius: 80px 0px 0px 0px;;
-    content: url('/assets1/images/content/projects/Photo-1.webp');
+    content: url('/assets/images/content/projects/Photo-1.webp');
 }
 
 .project_example_photo3 {
     border-radius: 0px 0px 80px 0px;;
-    content: url('/assets1/images/content/projects/Photo-2.webp');
+    content: url('/assets/images/content/projects/Photo-2.webp');
 }
 
 .project_example_photo4 {
     border-radius: 0px 0px 0px 80px;;
-    content: url('/assets1/images/content/projects/Photo-3.webp');
+    content: url('/assets/images/content/projects/Photo-3.webp');
 }
 
 .project_arrow_button {

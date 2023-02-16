@@ -58,13 +58,13 @@
 }
 
 .news_card_image1 {
-    background-image: url('/assets1/images/content/news/Photo.webp');
+    background-image: url('/assets/images/content/news/Photo.webp');
 }
 .news_card_image2{
-    background-image: url('/assets1/images/content/news/Photo-1.webp');
+    background-image: url('/assets/images/content/news/Photo-1.webp');
 }
 .news_card_image3{
-    background-image: url('/assets1/images/content/news/Photo-2.webp');
+    background-image: url('/assets/images/content/news/Photo-2.webp');
 }
 
 .news_card_badge {
