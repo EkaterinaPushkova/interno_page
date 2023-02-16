@@ -22,6 +22,7 @@
     max-width: 100%;
     grid-template-columns: 550px 550px;
     grid-gap: 100px;
+    overflow: auto;
 }
 
 .project_example_title {
@@ -69,13 +70,13 @@
 
 @media screen and (max-width: 1250px) {
     .projects_examples_container {
-        grid-template-columns: 550px;
+        grid-template-columns: 550px 550px 550px 550px;
     }
 }
 
 @media screen and (max-width: 600px) {
     .projects_examples_container {
-        grid-template-columns: 400px;
+        grid-template-columns: 400px 400px 400px 400px;
     }
 
     .projects_title {
@@ -94,6 +95,6 @@
 
 @media screen and (max-width: 450px) {
     .projects_examples_container {
-        grid-template-columns: 290px;
+        grid-template-columns: 290px 290px 290px 290px;
     }
 }
