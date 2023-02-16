@@ -31,6 +31,7 @@
     align-items: center;
     font-family: var(--jost);
     font-size: var(--h5);
+    transition: transform 0.3s ease;
 }
 
 .navbar a {
@@ -51,7 +52,12 @@
     content: url('/assets/icons/interface/mini/Search.svg');
 }
 
+#checkbox-b {
+    display: none;
+}
+
 @media screen and (max-width: 1100px) {
+
     .header {
         padding: var(--medium-size) 0;
     }
@@ -64,27 +70,76 @@
         width: 20px;
     }
     .navbar {
-        display: none;
+       display: none;
     }
+
+    .menu-button-container {
+        display: flex;
+        right: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+      }
 
     .menu_button,
     .menu_button::before,
     .menu_button::after {
-    display: block;
-    background-color: var(--primary2);
-    justify-content: end;
-    height: 2px;
-    width: 20px;
-    border-radius: 2px;
+        position: absolute;
+        display: block;
+        justify-content: end;
+        
+        height: 2px;
+        width: 20px; 
+        background-color: var(--primary2);
+        
+        border-radius: 2px;
+        z-index: 15;
+        transition: transform 0.3s ease;
     }
 
     .menu_button::before {
-    content: '';
-    margin-top: -6px;
+        content: '';
+        margin-top: -6px;
     }
 
     .menu_button::after {
-    content: '';
-    margin-top: 10px;
+        content: '';
+        margin-top: 6px;
+    }
+
+    #checkbox-b:checked + .menu-button-container .menu_button::before {
+        transform: rotate(135deg);
+        margin-top: 0px;
+    }
+
+     #checkbox-b:checked + .menu-button-container .menu_button {
+        background-color:  transparent;
+    }
+
+    #checkbox-b:checked + .menu-button-container .menu_button::after {
+        transform: rotate(-135deg);
+        margin-top: 0px;
+    }
+
+    #checkbox-b:checked ~ .navbar {
+        position: absolute;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        right: 0;
+        top: 0;
+        height: 600px;
+        width: auto;
+
+        margin: 20px 15px; 
+        padding: 0 45px; 
+        z-index: 10;
+        background-color: var(--white);
+        border-radius: 40px;
+        box-shadow: 0px 10px 20px #1F2022;
     }
 }
