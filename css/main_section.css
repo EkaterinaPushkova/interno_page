@@ -38,6 +38,16 @@
         line-height: 50px;
     }
 
+    .main_article_text {
+        font-size: var(--h5);
+
+    }
+
+    .main_article_button {
+        width: 200px;
+        font-size: var(--h6);
+    }
+
     .main_section {
         height: 550px;
         background-position: center;
