@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+
+  docker:
+    container_name: interno
+    image: docker_interno
+    build:
+            context: .
+            dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 3001:3001
