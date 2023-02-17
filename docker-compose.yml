@@ -4,10 +4,14 @@ services:
 
   docker:
     container_name: interno
-    image: docker_interno
-    build:
-            context: .
-            dockerfile: Dockerfile
+    # image: docker_interno
+    # build:
+    #         context: .
+    #         dockerfile: Dockerfile
+    image: nginx:alpine
+    volumes:
+      - "./:/interno_page"
+      - "./nginx.conf:/etc/nginx/nginx.conf"
     restart: always
     ports:
       - 3001:3001
