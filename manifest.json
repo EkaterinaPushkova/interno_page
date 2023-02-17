@@ -1,14 +1,29 @@
 {
+    "name": "Interno",
     "short_name": " Interno",
     "icons": [
     {
         "src": "/assets/icons/Logo.svg",
-        "sizes": "48x48 128x128 256x256",
-        "type": "image/svg"
-    }
+        "sizes": "48x48 128x128 144x144 256x256 512x512",
+        "type": "image/svg",
+        "purpose": "maskable any"
+    },
+    {
+        "src": "/assets/icons/Logo.png",
+        "type": "image/png",
+        "sizes": "34x34",
+        "purpose": "maskable any"
+      },  
+      {
+        "src": "/assets/icons/Logo-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable any"
+      }
     ],
     "background_color": "#FFFFFF",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#CDA274"
+    "theme_color": "#CDA274",
+    "start_url": "/"
 }
